@@ -1,41 +1,5 @@
 {
-  "id": "",
-  "name": "",
-  "server": "",
-  "vip": 0,
-  "guildName": "",
-  "guildID": "",
   "crystal": 0,
-  "tree": {
-    "level": 0,
-    "branches": [
-      {
-        "name": "Dura's Sustenance",
-        "id": "tree_sus",
-        "level": 0
-      },
-      {
-        "name": "Dura's Sorcery",
-        "id": "tree_sor",
-        "level": 0
-      },
-      {
-        "name": "Dura's Might",
-        "id": "tree_mig",
-        "level": 0
-      },
-      {
-        "name": "Dura's Fortitude",
-        "id": "tree_for",
-        "level": 0
-      },
-      {
-        "name": "Dura's Celerity",
-        "id": "tree_cel",
-        "level": 0
-      }
-    ]
-  },
   "factions": [
     {
       "id": "faction_cel",
@@ -47,7 +11,7 @@
     },
     {
       "id": "faction_gra",
-      "name": "Graveborn" 
+      "name": "Graveborn"
     },
     {
       "id": "faction_hyp",
@@ -66,162 +30,198 @@
       "name": "Wilders"
     }
   ],
+  "guildID": "",
+  "guildName": "",
   "heroes": [
     {
-      "name": "Athalia",
-      "id": "cel_athalia",
-      "faction": "faction_cel",
       "ascension": 0,
-      "stars": 0,
-      "si": 0,
-      "fi": 0,
-      "type": "agility",
       "class": "ranger",
+      "faction": "faction_cel",
+      "fi": 0,
+      "id": "cel_athalia",
+      "name": "Athalia",
       "role": "assassin",
-      "title": "Harbinger of Justice"
+      "si": 0,
+      "stars": 0,
+      "title": "Harbinger of Justice",
+      "type": "agility"
     },
     {
-      "name": "Orthos",
+      "ascension": 0,
+      "class": "",
+      "faction": "faction_cel",
+      "fi": 0,
       "id": "cel_orthos",
-      "faction": "faction_cel",
-      "ascension": 0,
-      "stars": 0,
-      "si": 0,
-      "fi": 0,
-      "type": "",
-      "class": "",
+      "name": "Orthos",
       "role": "",
-      "title": ""
+      "si": 0,
+      "stars": 0,
+      "title": "",
+      "type": ""
     },
     {
-      "name": "Elijah & Lailah",
+      "ascension": 0,
+      "class": "",
+      "faction": "faction_cel",
+      "fi": 0,
       "id": "cel_twins",
-      "faction": "faction_cel",
-      "ascension": 0,
-      "stars": 0,
-      "si": 0,
-      "fi": 0,
-      "type": "",
-      "class": "",
+      "name": "Elijah & Lailah",
       "role": "",
-      "title": ""
+      "si": 0,
+      "stars": 0,
+      "title": "Celestial Twins",
+      "type": ""
     },
     {
-      "name": "Ainz",
+      "ascension": 0,
+      "class": "",
+      "faction": "faction_dim",
+      "fi": 0,
       "id": "dim_ainz",
-      "faction": "faction_dim",
-      "ascension": 0,
-      "stars": 0,
-      "si": 0,
-      "fi": 0,
-      "type": "",
-      "class": "",
+      "name": "Ainz",
       "role": "",
-      "title": ""
+      "si": 0,
+      "stars": 0,
+      "title": "",
+      "type": ""
     },
     {
-      "name": "Albedo",
+      "ascension": 0,
+      "class": "",
+      "faction": "faction_dim",
+      "fi": 0,
       "id": "dim_albedo",
-      "faction": "faction_dim",
-      "ascension": 0,
-      "stars": 0,
-      "si": 0,
-      "fi": 0,
-      "type": "",
-      "class": "",
+      "name": "Albedo",
       "role": "",
-      "title": ""
+      "si": 0,
+      "stars": 0,
+      "title": "",
+      "type": ""
     },
     {
-      "name": "Arthur",
+      "ascension": 0,
+      "class": "",
+      "faction": "faction_dim",
+      "fi": 0,
       "id": "dim_arthur",
-      "faction": "faction_dim",
-      "ascension": 0,
-      "stars": 0,
-      "si": 0,
-      "fi": 0,
-      "type": "",
-      "class": "",
+      "name": "Arthur",
       "role": "",
-      "title": ""
+      "si": 0,
+      "stars": 0,
+      "title": "",
+      "type": ""
     },
     {
-      "name": "Ezio",
+      "ascension": 0,
+      "class": "",
+      "faction": "faction_dim",
+      "fi": 0,
       "id": "dim_ezio",
-      "faction": "faction_dim",
-      "ascension": 0,
-      "stars": 0,
-      "si": 0,
-      "fi": 0,
-      "type": "",
-      "class": "",
+      "name": "Ezio",
       "role": "",
-      "title": ""
+      "si": 0,
+      "stars": 0,
+      "title": "",
+      "type": ""
     },
     {
-      "name": "Joker",
+      "ascension": 0,
+      "class": "",
+      "faction": "faction_dim",
+      "fi": 0,
       "id": "dim_joker",
-      "faction": "faction_dim",
-      "ascension": 0,
-      "stars": 0,
-      "si": 0,
-      "fi": 0,
-      "type": "",
-      "class": "",
+      "name": "Joker",
       "role": "",
-      "title": ""
+      "si": 0,
+      "stars": 0,
+      "title": "",
+      "type": ""
     },
     {
-      "name": "Nakoruru",
+      "ascension": 0,
+      "class": "",
+      "faction": "faction_dim",
+      "fi": 0,
       "id": "dim_nakoruru",
-      "faction": "faction_dim",
-      "ascension": 0,
-      "stars": 0,
-      "si": 0,
-      "fi": 0,
-      "type": "",
-      "class": "",
+      "name": "Nakoruru",
       "role": "",
-      "title": ""
+      "si": 0,
+      "stars": 0,
+      "title": "",
+      "type": ""
     },
     {
-      "name": "Prince of Persia",
+      "ascension": 0,
+      "class": "",
+      "faction": "faction_dim",
+      "fi": 0,
       "id": "dim_prince",
-      "faction": "faction_dim",
-      "ascension": 0,
-      "stars": 0,
-      "si": 0,
-      "fi": 0,
-      "type": "",
-      "class": "",
+      "name": "Prince of Persia",
       "role": "",
-      "title": ""
+      "si": 0,
+      "stars": 0,
+      "title": "",
+      "type": ""
     },
     {
-      "name": "Queen",
+      "ascension": 0,
+      "class": "",
+      "faction": "faction_dim",
+      "fi": 0,
       "id": "dim_queen",
-      "faction": "faction_dim",
-      "ascension": 0,
-      "stars": 0,
-      "si": 0,
-      "fi": 0,
-      "type": "",
-      "class": "",
+      "name": "Queen",
       "role": "",
-      "title": ""
+      "si": 0,
+      "stars": 0,
+      "title": "",
+      "type": ""
     },
     {
-      "name": "Ukyo",
-      "id": "dim_ukyo",
-      "faction": "faction_dim",
       "ascension": 0,
-      "stars": 0,
-      "si": 0,
-      "fi": 0,
-      "type": "",
       "class": "",
+      "faction": "faction_dim",
+      "fi": 0,
+      "id": "dim_ukyo",
+      "name": "Ukyo",
       "role": "",
-      "title": ""
+      "si": 0,
+      "stars": 0,
+      "title": "",
+      "type": ""
     }
-  ]
+  ],
+  "id": "",
+  "name": "",
+  "server": "",
+  "tree": {
+    "branches": [
+      {
+        "id": "tree_sus",
+        "level": 0,
+        "name": "Dura's Sustenance"
+      },
+      {
+        "id": "tree_sor",
+        "level": 0,
+        "name": "Dura's Sorcery"
+      },
+      {
+        "id": "tree_mig",
+        "level": 0,
+        "name": "Dura's Might"
+      },
+      {
+        "id": "tree_for",
+        "level": 0,
+        "name": "Dura's Fortitude"
+      },
+      {
+        "id": "tree_cel",
+        "level": 0,
+        "name": "Dura's Celerity"
+      }
+    ],
+    "level": 0
+  },
+  "vip": 0
 }
