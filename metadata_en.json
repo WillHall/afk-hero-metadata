@@ -17,96 +17,108 @@
   "heroes": [
     {
       "name": "Athalia",
+      "id": "cel.athalia",
       "faction": "cel",
-      "icon": "",
+      "ascension": 0,
       "stars": 0,
       "si": 0,
       "fi": 0
     },
     {
       "name": "Orthos",
+      "id": "cel.orthos",
       "faction": "cel",
-      "icon": "",
+      "ascension": 0,
       "stars": 0,
       "si": 0,
       "fi": 0
     },
     {
       "name": "Elijah & Lailah",
+      "id": "cel.twins",
       "faction": "cel",
-      "icon": "",
+      "ascension": 0,
       "stars": 0,
       "si": 0,
       "fi": 0
     },
     {
       "name": "Ainz",
+      "id": "dim.ainz",
       "faction": "dim",
-      "icon": "",
+      "ascension": 0,
       "stars": 0,
       "si": 0,
       "fi": 0
     },
     {
       "name": "Albedo",
+      "id": "dim.albedo",
       "faction": "dim",
-      "icon": "",
+      "ascension": 0,
       "stars": 0,
       "si": 0,
       "fi": 0
     },
     {
       "name": "Arthur",
+      "id": "dim.arthur",
       "faction": "dim",
-      "icon": "",
+      "ascension": 0,
       "stars": 0,
       "si": 0,
       "fi": 0
     },
     {
       "name": "Ezio",
+      "id": "dim.ezio",
       "faction": "dim",
-      "icon": "",
+      "ascension": 0,
       "stars": 0,
       "si": 0,
       "fi": 0
     },
     {
       "name": "Joker",
+      "id": "dim.joker",
       "faction": "dim",
-      "icon": "",
+      "ascension": 0,
       "stars": 0,
       "si": 0,
       "fi": 0
     },
     {
       "name": "Nakoruru",
+      "id": "dim.nakoruru",
       "faction": "dim",
-      "icon": "",
+      "ascension": 0,
       "stars": 0,
       "si": 0,
       "fi": 0
     },
     {
       "name": "Prince of Persia",
+      "id": "dim.prince",
       "faction": "dim",
-      "icon": "",
+      "ascension": 0,
       "stars": 0,
       "si": 0,
       "fi": 0
     },
     {
       "name": "Queen",
+      "id": "dim.queen",
       "faction": "dim",
-      "icon": "",
+      "ascension": 0,
       "stars": 0,
       "si": 0,
       "fi": 0
     },
     {
       "name": "Ukyo",
+      "id": "dim.ukyo",
       "faction": "dim",
-      "icon": "",
+      "ascension": 0,
       "stars": 0,
       "si": 0,
       "fi": 0
