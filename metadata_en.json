@@ -1,0 +1,115 @@
+{
+  "id": "",
+  "name": "",
+  "server": "",
+  "vip": 0,
+  "guildName": "",
+  "guildID": "",
+  "factions": {
+    "cel": "Celestial",
+    "dim": "Dimensional",
+    "gra": "Graveborn",
+    "hyp": "Hypogean",
+    "lig": "Lightbearer",
+    "mau": "Mauler",
+    "wil": "Wilder"
+  },
+  "heroes": [
+    {
+      "name": "Athalia",
+      "faction": "cel",
+      "icon": "",
+      "stars": 0,
+      "si": 0,
+      "fi": 0
+    },
+    {
+      "name": "Orthos",
+      "faction": "cel",
+      "icon": "",
+      "stars": 0,
+      "si": 0,
+      "fi": 0
+    },
+    {
+      "name": "Elijah & Lailah",
+      "faction": "cel",
+      "icon": "",
+      "stars": 0,
+      "si": 0,
+      "fi": 0
+    },
+    {
+      "name": "Ainz",
+      "faction": "dim",
+      "icon": "",
+      "stars": 0,
+      "si": 0,
+      "fi": 0
+    },
+    {
+      "name": "Albedo",
+      "faction": "dim",
+      "icon": "",
+      "stars": 0,
+      "si": 0,
+      "fi": 0
+    },
+    {
+      "name": "Arthur",
+      "faction": "dim",
+      "icon": "",
+      "stars": 0,
+      "si": 0,
+      "fi": 0
+    },
+    {
+      "name": "Ezio",
+      "faction": "dim",
+      "icon": "",
+      "stars": 0,
+      "si": 0,
+      "fi": 0
+    },
+    {
+      "name": "Joker",
+      "faction": "dim",
+      "icon": "",
+      "stars": 0,
+      "si": 0,
+      "fi": 0
+    },
+    {
+      "name": "Nakoruru",
+      "faction": "dim",
+      "icon": "",
+      "stars": 0,
+      "si": 0,
+      "fi": 0
+    },
+    {
+      "name": "Prince of Persia",
+      "faction": "dim",
+      "icon": "",
+      "stars": 0,
+      "si": 0,
+      "fi": 0
+    },
+    {
+      "name": "Queen",
+      "faction": "dim",
+      "icon": "",
+      "stars": 0,
+      "si": 0,
+      "fi": 0
+    },
+    {
+      "name": "Ukyo",
+      "faction": "dim",
+      "icon": "",
+      "stars": 0,
+      "si": 0,
+      "fi": 0
+    }
+  ]
+}
