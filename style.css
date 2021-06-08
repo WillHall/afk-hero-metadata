@@ -30,17 +30,27 @@ body {
 } */
 
 .hero {
-  background-position: center center;
-  background-repeat: no-repeat; 
-  background-size: cover;
-
-  /* filter: saturate(0); */
   width: var(--heroWidth);
   min-height: var(--heroWidth);
   overflow: hidden;
 
   /* border: 3px solid purple; */
   border-radius: 8px 2px;  
+}
+
+.hero-thumb {
+  background-position: center center;
+  background-repeat: no-repeat; 
+  background-size: cover;
+
+  overflow: hidden;
+
+  border-radius: 8px 2px;  
+
+  width: 94%;
+  height: 94%;
+
+  margin: 3% 0 0 3%;
 }
 
 /* .hero:after {
