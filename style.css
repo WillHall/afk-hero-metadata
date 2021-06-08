@@ -81,16 +81,16 @@ body {
   grid-template-columns: repeat(var(--columnCount), 1fr);
   grid-column-gap: var(--heroSpacing);
   grid-row-gap: var(--heroSpacing);
-
 }
 
 #all-hero-list {
   width: var(--appWidth);
+  margin: 0 auto 20px;
 }
 
 .ascension-list {
   width: var(--appWidth);
-  margin: 20px 0;
+  margin: 20px auto;
 }
 
 .hero-flair {
