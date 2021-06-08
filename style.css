@@ -1,0 +1,169 @@
+:root {
+  --bgColor: rgba(34,34,34,1);
+  --heroWidth: 65px;
+  --heroSpacing: 8px;
+  --columnCount: 5;
+
+  --appWidth: calc((var(--heroWidth) * var(--columnCount)) + (var(--heroSpacing) * (var(--columnCount) - 1)));
+  --eplusgrad: linear-gradient(45deg, rgba(247,247,217,1) 35%, rgba(252,235,175,1) 50%, rgba(247,247,217,1) 65%);  
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--bgColor);
+}
+
+/* .heroes {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: space-between;
+  align-items: flex-start;
+
+  width: 100%;
+} */
+
+.hero {
+  background-position: center center;
+  background-repeat: no-repeat; 
+  background-size: cover;
+
+  /* filter: saturate(0); */
+  width: var(--heroWidth);
+  min-height: var(--heroWidth);
+  overflow: hidden;
+
+  /* border: 3px solid purple; */
+  border-radius: 8px 2px;  
+}
+
+/* .hero:after {
+  --bgColor: rgba(34,34,34,.5);
+
+  content: '';
+  position: absolute;
+  width: var(--heroWidth);
+  min-height: var(--heroWidth);
+
+  background: var(--bgColor);
+} */
+
+/* .hero:hover:after {
+  background: transparent;
+}
+.hero.active:after {
+  background: transparent;
+  opacity: 0;
+} */
+
+.heroes {
+  display: grid;
+  grid-template-columns: repeat(var(--columnCount), 1fr);
+  grid-column-gap: var(--heroSpacing);
+  grid-row-gap: var(--heroSpacing);
+
+}
+
+#all-hero-list {
+  width: var(--appWidth);
+}
+
+.ascension-list {
+  width: var(--appWidth);
+}
+
+.hero-flair {
+  position: relative;
+  overflow: hidden;
+  width: var(--heroWidth);
+  min-height: var(--heroWidth);
+}
+
+.asc-0,
+.asc-1 {
+  background-color: royalblue;
+}
+
+.asc-2,
+.asc-3 {
+  background-color: purple;
+}
+
+.asc-4,
+.asc-5 {
+  background-color: gold;
+}
+
+.asc-6 {
+  background-color: whitesmoke;
+}
+
+.asc-1 .hero-flair:before,
+.asc-3 .hero-flair:before,
+.asc-5 .hero-flair:before,
+.asc-1 .hero-flair:after,
+.asc-3 .hero-flair:after,
+.asc-5 .hero-flair:after {
+  --flairWidth: calc(var(--heroWidth) / 5);
+  --flairMarginOffset: calc(var(--flairWidth) / 2);
+
+  right: 0;
+
+  content: "";
+  position:absolute;
+  /* margin:-20px; */
+  width: var(--flairWidth);
+  height: var(--flairWidth);
+  /* transform:rotate(45deg); */
+  margin-top: calc(var(--flairMarginOffset) * -1);
+  margin-right: calc(var(--flairMarginOffset) * -1);
+  background: rgb(249,241,195);
+  background: var(--eplusgrad);
+}
+
+.asc-1 .hero-flair:after,
+.asc-3 .hero-flair:after,
+.asc-5 .hero-flair:after {
+  bottom: 0;
+
+  margin-left: calc(var(--flairMarginOffset) * -1);
+  margin-bottom: calc(var(--flairMarginOffset) * -1);
+}
+
+
+.asc-jewel {
+  display: none;
+  border-style: solid;
+  border-color: transparent transparent red transparent;
+  border-width: 0 4px 4px 4px;
+  height: 0;
+  width: 2px;
+  box-sizing: content-box;
+  position: relative;
+  margin: 5px 0 2px 2px;
+  float: right;
+}
+.asc-jewel:after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: -2px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: red transparent transparent transparent;
+  border-width: 10px 5px 0 2px;
+}
+
+.asc-1 .asc-jewel,
+.asc-3 .asc-jewel,
+.asc-4 .asc-jewel {
+  display: block;
+  transform: rotate(45deg);
+}

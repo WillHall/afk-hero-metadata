@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hero Companion</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/mustache@4.2.0/mustache.min.js"></script>
+  </head>
+  <body>
+    <template id="heroList">
+      <div class="heroes">
+        {{#heroes}}
+          <div 
+            id="{{id}}"
+            onclick="hero.toggleActive(event)"
+            class="hero{{#owned}} owned{{/owned}} asc-{{ascension}}" 
+            style="background-image: url(https://raw.githubusercontent.com/WillHall/afk-hero-metadata/main/icons/{{faction}}/{{id}}.jpg)" 
+            title="{{name}} - {{title}}"
+          >
+          </div>
+        {{/heroes}}
+      </div>
+    </template>
+
+    <template id="heroTile">
+      <div class="hero"></div>
+    </template>
+
+    <template id="heroUpdate">
+      <div class="heroForm"></div>
+    </template>
+
+    <template id="modal">
+      <div class="overlay"></div>
+    </template>
+
+    <div class="ascension-list">
+      <div class="heroes">
+        <div class="hero asc-0">
+          <div class="hero-flair">
+            <div class="asc-jewel"></div>
+          </div>
+        </div>
+        <div class="hero asc-1">
+          <div class="hero-flair">
+            <div class="asc-jewel"></div>
+          </div>
+        </div>
+        <div class="hero asc-2 l">
+          <div class="hero-flair">
+            <div class="asc-jewel"></div>
+          </div>
+        </div>
+        <div class="hero asc-3 l-plus">
+          <div class="hero-flair">
+            <div class="asc-jewel"></div>
+          </div>
+        </div>
+        <div class="hero asc-4 m">
+          <div class="hero-flair">
+            <div class="asc-jewel"></div>
+          </div>
+        </div>
+        <div class="hero asc-5 m-plus">
+          <div class="hero-flair">
+            <div class="asc-jewel"></div>
+          </div>
+        </div>
+        <div class="hero asc-6 a">
+          <div class="hero-flair">
+            <div class="asc-jewel"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="all-hero-list"></div>
+
+    <script type="text/javascript" src="./init.js"></script>
+  </body>
+</html>
