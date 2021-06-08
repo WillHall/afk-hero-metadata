@@ -185,3 +185,14 @@ body {
   display: block;
   transform: rotate(45deg);
 }
+
+.stars {
+  position: relative;
+  top: 75%;
+  z-index: 2;
+  color: yellow;
+  font-size: 10px;
+  text-align: center;
+  background: rgba(0,0,0,0.5);
+  padding: 0 0 1px;
+}
