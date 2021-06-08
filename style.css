@@ -39,6 +39,7 @@ body {
 }
 
 .hero-thumb {
+  position: relative;
   background-position: center center;
   background-repeat: no-repeat; 
   background-size: cover;
@@ -86,6 +87,7 @@ body {
 
 .ascension-list {
   width: var(--appWidth);
+  margin: 20px 0;
 }
 
 .hero-flair {
@@ -114,12 +116,12 @@ body {
   background-color: whitesmoke;
 }
 
-.asc-1 .hero-flair:before,
-.asc-3 .hero-flair:before,
-.asc-5 .hero-flair:before,
-.asc-1 .hero-flair:after,
-.asc-3 .hero-flair:after,
-.asc-5 .hero-flair:after {
+.asc-1 .hero-thumb:before,
+.asc-3 .hero-thumb:before,
+.asc-5 .hero-thumb:before,
+.asc-1 .hero-thumb:after,
+.asc-3 .hero-thumb:after,
+.asc-5 .hero-thumb:after {
   --flairWidth: calc(var(--heroWidth) / 5);
   --flairMarginOffset: calc(var(--flairWidth) / 2);
 
@@ -137,9 +139,10 @@ body {
   background: var(--eplusgrad);
 }
 
-.asc-1 .hero-flair:after,
-.asc-3 .hero-flair:after,
-.asc-5 .hero-flair:after {
+.asc-1 .hero-thumb:after,
+.asc-3 .hero-thumb:after,
+.asc-5 .hero-thumb:after {
+  left: 0;
   bottom: 0;
 
   margin-left: calc(var(--flairMarginOffset) * -1);
