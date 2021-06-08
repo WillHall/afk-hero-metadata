@@ -30,6 +30,7 @@ body {
 } */
 
 .hero {
+  position: relative;
   width: var(--heroWidth);
   min-height: var(--heroWidth);
   overflow: hidden;
@@ -45,6 +46,8 @@ body {
   background-size: cover;
 
   overflow: hidden;
+
+  z-index: 1;
 
   border-radius: 8px 2px;  
 
@@ -116,12 +119,12 @@ body {
   background-color: whitesmoke;
 }
 
-.asc-1 .hero-thumb:before,
-.asc-3 .hero-thumb:before,
-.asc-5 .hero-thumb:before,
-.asc-1 .hero-thumb:after,
-.asc-3 .hero-thumb:after,
-.asc-5 .hero-thumb:after {
+.asc-1:before,
+.asc-3:before,
+.asc-5:before,
+.asc-1:after,
+.asc-3:after,
+.asc-5:after {
   --flairWidth: calc(var(--heroWidth) / 5);
   --flairMarginOffset: calc(var(--flairWidth) / 2);
 
@@ -139,11 +142,13 @@ body {
   background: var(--eplusgrad);
 }
 
-.asc-1 .hero-thumb:after,
-.asc-3 .hero-thumb:after,
-.asc-5 .hero-thumb:after {
+.asc-1:after,
+.asc-3:after,
+.asc-5:after {
   left: 0;
   bottom: 0;
+
+  z-index: 0;
 
   margin-left: calc(var(--flairMarginOffset) * -1);
   margin-bottom: calc(var(--flairMarginOffset) * -1);
