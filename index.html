@@ -15,6 +15,7 @@
   <body>
 
     <template id="heroList">
+      <h3>Hero List</h3>
       <div class="heroes">
         {{#heroes}}
           <div 
@@ -26,9 +27,7 @@
               class="hero-thumb"
               style="background-image: url(https://raw.githubusercontent.com/WillHall/afk-hero-metadata/main/icons/{{faction}}/{{id}}.jpg)">
               {{#stars}}
-                <div class="stars">
-                  <span class="stars-{{stars}}"></span>
-                </div>
+                <div class="stars stars-{{stars}}"></div>
               {{/stars}}
             </div>
             <div class="flair">
@@ -56,6 +55,7 @@
     </template>
 
     <div class="ascension-list working-container">
+      <h3>Ascension Design</h3>
       <div class="heroes">
         <div class="hero owned asc-0">
           <div class="hero-thumb" style="background-image: url(https://raw.githubusercontent.com/WillHall/afk-hero-metadata/main/icons/faction_cel/cel_athalia.jpg)"></div>
@@ -80,38 +80,39 @@
         </div>
         <div class="hero owned asc-6 stars-1">
           <div class="hero-thumb" style="background-image: url(https://raw.githubusercontent.com/WillHall/afk-hero-metadata/main/icons/faction_cel/cel_athalia.jpg)">
-            <div class="stars">★</div>
+            <div class="stars stars-1"></div>
           </div>
         </div>
         <div class="hero owned asc-6 stars-2">
           <div class="hero-thumb" style="background-image: url(https://raw.githubusercontent.com/WillHall/afk-hero-metadata/main/icons/faction_cel/cel_athalia.jpg)">
-            <div class="stars">★★</div>
+            <div class="stars stars-2"></div>
           </div>
         </div>
         <div class="hero owned asc-6 stars-3">
           <div class="hero-thumb" style="background-image: url(https://raw.githubusercontent.com/WillHall/afk-hero-metadata/main/icons/faction_cel/cel_athalia.jpg)">
-            <div class="stars">★★★</div>
+            <div class="stars stars-3"></div>
           </div>
         </div>
         <div class="hero owned asc-6 stars-4">
           <div class="hero-thumb" style="background-image: url(https://raw.githubusercontent.com/WillHall/afk-hero-metadata/main/icons/faction_cel/cel_athalia.jpg)">
-            <div class="stars">★★★★</div>
+            <div class="stars stars-4"></div>
           </div>
         </div>
         <div class="hero owned asc-6 stars-5">
           <div class="hero-thumb" style="background-image: url(https://raw.githubusercontent.com/WillHall/afk-hero-metadata/main/icons/faction_cel/cel_athalia.jpg)">
-            <div class="stars">★★★★★</div>
+            <div class="stars stars-5"></div>
           </div>
         </div>
       </div>
     </div>
 
     <div class="flair-list working-container">
+      <h3>Flair Design (FI / SI)</h3>
       <div class="heroes">
 
         <div class="hero owned asc-6 stars-5">
           <div class="hero-thumb" style="background-image: url(https://raw.githubusercontent.com/WillHall/afk-hero-metadata/main/icons/faction_cel/cel_athalia.jpg)">
-            <div class="stars">★★★★★</div>
+            <div class="stars stars-5"></div>
           </div>
           <div class="flair">
             <div class="si si-10">+10</div>
@@ -123,7 +124,7 @@
         </div>
         <div class="hero owned asc-6 stars-5">
           <div class="hero-thumb" style="background-image: url(https://raw.githubusercontent.com/WillHall/afk-hero-metadata/main/icons/faction_cel/cel_athalia.jpg)">
-            <div class="stars">★★★★★</div>
+            <div class="stars stars-5"></div>
           </div>
           <div class="flair">
             <div class="si si-20">+20</div>
@@ -135,7 +136,7 @@
         </div>
         <div class="hero owned asc-6 stars-5">
           <div class="hero-thumb" style="background-image: url(https://raw.githubusercontent.com/WillHall/afk-hero-metadata/main/icons/faction_cel/cel_athalia.jpg)">
-            <div class="stars">★★★★★</div>
+            <div class="stars stars-5"></div>
           </div>
           <div class="flair">
             <div class="si si-30">+30</div>
