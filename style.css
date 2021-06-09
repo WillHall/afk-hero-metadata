@@ -268,6 +268,7 @@ h3 {
   color: red;
   letter-spacing: -2px;
   line-height: 8px;
+  left: -1px;
 }
 .flair .fi.fi-3:after {
   content: '✦';
