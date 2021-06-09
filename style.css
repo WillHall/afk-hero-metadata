@@ -4,6 +4,9 @@
   --heroSpacing: 8px;
   --columnCount: 5;
 
+  --fontMedula: 'Medula One', cursive;
+  --fontOpenSans: 'Open Sans', sans-serif;
+
   --appWidth: calc((var(--heroWidth) * var(--columnCount)) + (var(--heroSpacing) * (var(--columnCount) - 1)));
   --eplusgrad: linear-gradient(45deg, rgba(247,247,217,1) 35%, rgba(252,235,175,1) 50%, rgba(247,247,217,1) 65%);  
 }
@@ -16,6 +19,15 @@
 
 body {
   background: var(--bgColor);
+}
+
+.working-container {
+  width: var(--appWidth);
+  margin: 0 auto 20px;
+}
+
+.working-container:first-of-type {
+  margin-top: 20px;
 }
 
 /* .heroes {
@@ -95,16 +107,6 @@ body {
   grid-template-columns: repeat(var(--columnCount), 1fr);
   grid-column-gap: var(--heroSpacing);
   grid-row-gap: var(--heroSpacing);
-}
-
-#all-hero-list {
-  width: var(--appWidth);
-  margin: 0 auto 20px;
-}
-
-.ascension-list {
-  width: var(--appWidth);
-  margin: 20px auto;
 }
 
 .hero-flair {
@@ -209,4 +211,59 @@ body {
   text-align: center;
   background: rgba(0,0,0,0.5);
   padding: 0 0 1px;
+}
+
+.flair {
+  position: absolute;
+  top: 0;
+  width: 30%;
+  height: 30%;
+  z-index: 3;
+
+  font-family: var(--fontOpenSans);
+  font-size: 10.5px;
+
+  color: #FFF;
+}
+.flair > div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.flair .stats {
+  width: 200%;
+  border-radius: 0 5px 5px 0;
+  left: 80%;
+  height: 70%;
+  top: 10%;
+  background: rgba(0,0,0,0.5);
+}
+.flair .si {
+}
+.flair .fi {
+  text-align: center;
+  top: 100%;
+  font-size: 10px;
+  color: red;
+  letter-spacing: -2px;
+  line-height: 8px;
+}
+.flair .fi.fi-3:after {
+  content: '✦';
+}
+.flair .fi.fi-9:after {
+  content: '✦✦';
+}
+.flair .fi.fi-27:after {
+  content: '❴✦✦❵';
+}
+
+.flair .faction {
+  background-color: #000;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+
+.flair .faction img {
+  width: 100%;
 }
