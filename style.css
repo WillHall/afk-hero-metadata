@@ -6,6 +6,7 @@
 
   --fontMedula: 'Medula One', cursive;
   --fontOpenSans: 'Open Sans', sans-serif;
+  --fontVarela: 'Varela', sans-serif;
 
   --appWidth: calc((var(--heroWidth) * var(--columnCount)) + (var(--heroSpacing) * (var(--columnCount) - 1)));
   --eplusgrad: linear-gradient(45deg, rgba(247,247,217,1) 35%, rgba(252,235,175,1) 50%, rgba(247,247,217,1) 65%);  
@@ -35,24 +36,12 @@ h3 {
   margin-top: 20px;
 }
 
-/* .heroes {
-  display: inline-flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-content: space-between;
-  align-items: flex-start;
-
-  width: 100%;
-} */
-
 .hero {
   position: relative;
   width: var(--heroWidth);
   min-height: var(--heroWidth);
   overflow: hidden;
 
-  /* border: 3px solid purple; */
   border-radius: 8px 2px;
   box-shadow: 0 0 3px #000;
 
@@ -89,26 +78,6 @@ h3 {
   box-shadow: inset 0 0 3px #000
 }
 
-
-/* .hero:after {
-  --bgColor: rgba(34,34,34,.5);
-
-  content: '';
-  position: absolute;
-  width: var(--heroWidth);
-  min-height: var(--heroWidth);
-
-  background: var(--bgColor);
-} */
-
-/* .hero:hover:after {
-  background: transparent;
-}
-.hero.active:after {
-  background: transparent;
-  opacity: 0;
-} */
-
 .heroes {
   display: grid;
   grid-template-columns: repeat(var(--columnCount), 1fr);
@@ -116,12 +85,88 @@ h3 {
   grid-row-gap: var(--heroSpacing);
 }
 
-.hero-flair {
-  position: relative;
-  overflow: hidden;
-  width: var(--heroWidth);
-  min-height: var(--heroWidth);
+.flair {
+  position: absolute;
+  top: 0;
+  width: 30%;
+  height: 30%;
+  z-index: 3;
+
+  font-family: var(--fontOpenSans);
+  font-size: 10.5px;
+
+  color: #FFF;
 }
+.flair > div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.flair .stats {
+  width: 200%;
+  border-radius: 0 5px 5px 0;
+  left: 80%;
+  height: 70%;
+  top: 10%;
+  background: rgba(0,0,0,0.5);
+}
+.flair .si {
+  z-index: 3;
+}
+.flair .si.si-30:before {
+  content: '';
+  width: 100%;
+  height: 150%;
+  left: -50%;
+  top: -20%;
+  position: absolute;
+  background: transparent url(icons/si/si30.png) no-repeat 0 0;
+  background-size: cover;
+}
+.flair .si.si-30:after {
+  content: '';
+  width: 100%;
+  height: 150%;
+  right: -50%;
+  top: -20%;
+  position: absolute;
+  background: transparent url(icons/si/si30.png) no-repeat 0 0;
+  background-size: cover;
+  transform: scaleX(-1);
+}
+
+
+.flair .fi {
+  text-align: center;
+  top: 100%;
+  font-size: 10px;
+  color: red;
+  letter-spacing: -2px;
+  line-height: 8px;
+  left: -1px;
+  z-index: 1;
+}
+.flair .fi.fi-3:after {
+  content: '✦';
+}
+.flair .fi.fi-9:after {
+  content: '✦✦';
+}
+.flair .fi.fi-27:after {
+  content: '❴✦✦❵';
+}
+
+.flair .faction {
+  background-color: #000;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  z-index: 2;
+}
+
+.flair .faction img {
+  width: 100%;
+}
+
 
 .asc-0,
 .asc-1 {
@@ -175,6 +220,10 @@ h3 {
 
   margin-left: calc(var(--flairMarginOffset) * -1);
   margin-bottom: calc(var(--flairMarginOffset) * -1);
+}
+
+.asc-6 {
+  overflow: visible;
 }
 
 
@@ -235,58 +284,3 @@ h3 {
   content: '★★★★★';
 }
 
-.flair {
-  position: absolute;
-  top: 0;
-  width: 30%;
-  height: 30%;
-  z-index: 3;
-
-  font-family: var(--fontOpenSans);
-  font-size: 10.5px;
-
-  color: #FFF;
-}
-.flair > div {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-.flair .stats {
-  width: 200%;
-  border-radius: 0 5px 5px 0;
-  left: 80%;
-  height: 70%;
-  top: 10%;
-  background: rgba(0,0,0,0.5);
-}
-.flair .si {
-}
-.flair .fi {
-  text-align: center;
-  top: 100%;
-  font-size: 10px;
-  color: red;
-  letter-spacing: -2px;
-  line-height: 8px;
-  left: -1px;
-}
-.flair .fi.fi-3:after {
-  content: '✦';
-}
-.flair .fi.fi-9:after {
-  content: '✦✦';
-}
-.flair .fi.fi-27:after {
-  content: '❴✦✦❵';
-}
-
-.flair .faction {
-  background-color: #000;
-  border-radius: 50%;
-  border: 1px solid #fff;
-}
-
-.flair .faction img {
-  width: 100%;
-}
