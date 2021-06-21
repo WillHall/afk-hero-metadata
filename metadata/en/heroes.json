@@ -1,37 +1,4 @@
 {
-  "crystal": 0,
-  "factions": [
-    {
-      "id": "faction_cel",
-      "name": "Celestials"
-    },
-    {
-      "id": "faction_dim",
-      "name": "Dimensionals"
-    },
-    {
-      "id": "faction_gra",
-      "name": "Graveborn"
-    },
-    {
-      "id": "faction_hyp",
-      "name": "Hypogean"
-    },
-    {
-      "id": "faction_lig",
-      "name": "Lightbearers"
-    },
-    {
-      "id": "faction_mau",
-      "name": "Maulers"
-    },
-    {
-      "id": "faction_wil",
-      "name": "Wilders"
-    }
-  ],
-  "guildID": "",
-  "guildName": "",
   "heroes": [
     {
       "ascension": 2,
@@ -1393,39 +1360,5 @@
       "title": "Leader of Few Words",
       "type": "agility"
     }
-  ],
-  "id": "",
-  "name": "",
-  "server": "",
-  "tree": {
-    "branches": [
-      {
-        "id": "tree_sus",
-        "level": 0,
-        "name": "Dura's Sustenance"
-      },
-      {
-        "id": "tree_sor",
-        "level": 0,
-        "name": "Dura's Sorcery"
-      },
-      {
-        "id": "tree_mig",
-        "level": 0,
-        "name": "Dura's Might"
-      },
-      {
-        "id": "tree_for",
-        "level": 0,
-        "name": "Dura's Fortitude"
-      },
-      {
-        "id": "tree_cel",
-        "level": 0,
-        "name": "Dura's Celerity"
-      }
-    ],
-    "level": 0
-  },
-  "vip": 0
+  ]
 }
