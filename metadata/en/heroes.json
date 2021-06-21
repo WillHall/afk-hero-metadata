@@ -3,7 +3,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "ranger",
       "faction": "faction_cel",
       "fi": 0,
@@ -19,7 +19,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "support",
       "faction": "faction_cel",
       "fi": 0,
@@ -35,7 +35,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "tank",
       "faction": "faction_cel",
       "fi": 0,
@@ -51,7 +51,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "support",
       "faction": "faction_cel",
       "fi": 0,
@@ -67,7 +67,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "warrior",
       "faction": "faction_cel",
       "fi": 0,
@@ -83,7 +83,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "warrior",
       "faction": "faction_cel",
       "fi": 0,
@@ -99,7 +99,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "mage",
       "faction": "faction_cel",
       "fi": 0,
@@ -115,7 +115,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "warrior",
       "faction": "faction_cel",
       "fi": 0,
@@ -131,7 +131,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "mage",
       "faction": "faction_cel",
       "fi": 0,
@@ -147,7 +147,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "support",
       "faction": "faction_hyp",
       "fi": 0,
@@ -163,7 +163,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "mage",
       "faction": "faction_hyp",
       "fi": 0,
@@ -179,7 +179,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "warrior",
       "faction": "faction_hyp",
       "fi": 0,
@@ -195,7 +195,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "mage",
       "faction": "faction_hyp",
       "fi": 0,
@@ -211,7 +211,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "tank",
       "faction": "faction_hyp",
       "fi": 0,
@@ -227,7 +227,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "ranger",
       "faction": "faction_hyp",
       "fi": 0,
@@ -243,7 +243,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "support",
       "faction": "faction_hyp",
       "fi": 0,
@@ -259,7 +259,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "support",
       "faction": "faction_hyp",
       "fi": 0,
@@ -275,7 +275,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "warrior",
       "faction": "faction_lig",
       "fi": 0,
@@ -291,7 +291,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "mage",
       "faction": "faction_lig",
       "fi": 0,
@@ -307,7 +307,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "support",
       "faction": "faction_lig",
       "fi": 0,
@@ -323,7 +323,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "ranger",
       "faction": "faction_lig",
       "fi": 0,
@@ -339,7 +339,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "tank",
       "faction": "faction_lig",
       "fi": 0,
@@ -355,7 +355,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "ranger",
       "faction": "faction_lig",
       "fi": 0,
@@ -371,7 +371,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "tank",
       "faction": "faction_lig",
       "fi": 0,
@@ -387,7 +387,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "support",
       "faction": "faction_lig",
       "fi": 0,
@@ -403,7 +403,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "ranger",
       "faction": "faction_lig",
       "fi": 0,
@@ -419,7 +419,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "support",
       "faction": "faction_lig",
       "fi": 0,
@@ -435,7 +435,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "ranger",
       "faction": "faction_lig",
       "fi": 0,
@@ -451,7 +451,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "warrior",
       "faction": "faction_lig",
       "fi": 0,
@@ -467,7 +467,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "ranger",
       "faction": "faction_lig",
       "fi": 0,
@@ -483,7 +483,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "mage",
       "faction": "faction_lig",
       "fi": 0,
@@ -499,7 +499,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "support",
       "faction": "faction_lig",
       "fi": 0,
@@ -515,7 +515,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "warrior",
       "faction": "faction_lig",
       "fi": 0,
@@ -531,7 +531,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "tank",
       "faction": "faction_mau",
       "fi": 0,
@@ -547,7 +547,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "warrior",
       "faction": "faction_mau",
       "fi": 0,
@@ -563,7 +563,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "ranger",
       "faction": "faction_mau",
       "fi": 0,
@@ -579,7 +579,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "support",
       "faction": "faction_mau",
       "fi": 0,
@@ -595,7 +595,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "tank",
       "faction": "faction_mau",
       "fi": 0,
@@ -611,7 +611,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "warrior",
       "faction": "faction_mau",
       "fi": 0,
@@ -627,7 +627,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "warrior",
       "faction": "faction_mau",
       "fi": 0,
@@ -643,7 +643,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "mage",
       "faction": "faction_mau",
       "fi": 0,
@@ -659,7 +659,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "mage",
       "faction": "faction_mau",
       "fi": 0,
@@ -675,7 +675,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "ranger",
       "faction": "faction_mau",
       "fi": 0,
@@ -691,7 +691,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "ranger",
       "faction": "faction_mau",
       "fi": 0,
@@ -707,7 +707,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "mage",
       "faction": "faction_mau",
       "fi": 0,
@@ -723,7 +723,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "tank",
       "faction": "faction_mau",
       "fi": 0,
@@ -739,7 +739,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "ranger",
       "faction": "faction_mau",
       "fi": 0,
@@ -755,7 +755,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "support",
       "faction": "faction_wil",
       "fi": 0,
@@ -771,7 +771,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "ranger",
       "faction": "faction_wil",
       "fi": 0,
@@ -787,7 +787,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "ranger",
       "faction": "faction_wil",
       "fi": 0,
@@ -803,7 +803,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "support",
       "faction": "faction_wil",
       "fi": 0,
@@ -819,7 +819,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "tank",
       "faction": "faction_wil",
       "fi": 0,
@@ -835,7 +835,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "warrior",
       "faction": "faction_wil",
       "fi": 0,
@@ -851,7 +851,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "ranger",
       "faction": "faction_wil",
       "fi": 0,
@@ -867,7 +867,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "tank",
       "faction": "faction_wil",
       "fi": 0,
@@ -883,7 +883,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "mage",
       "faction": "faction_wil",
       "fi": 0,
@@ -899,7 +899,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "warrior",
       "faction": "faction_wil",
       "fi": 0,
@@ -915,7 +915,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "mage",
       "faction": "faction_wil",
       "fi": 0,
@@ -931,7 +931,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "mage",
       "faction": "faction_wil",
       "fi": 0,
@@ -947,7 +947,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "ranger",
       "faction": "faction_wil",
       "fi": 0,
@@ -963,7 +963,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "ranger",
       "faction": "faction_wil",
       "fi": 0,
@@ -979,7 +979,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "tank",
       "faction": "faction_gra",
       "fi": 0,
@@ -995,7 +995,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "mage",
       "faction": "faction_gra",
       "fi": 0,
@@ -1011,7 +1011,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "tank",
       "faction": "faction_gra",
       "fi": 0,
@@ -1027,7 +1027,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "mage",
       "faction": "faction_gra",
       "fi": 0,
@@ -1043,7 +1043,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "warrior",
       "faction": "faction_gra",
       "fi": 0,
@@ -1059,7 +1059,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "ranger",
       "faction": "faction_gra",
       "fi": 0,
@@ -1075,7 +1075,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "warrior",
       "faction": "faction_gra",
       "fi": 0,
@@ -1091,7 +1091,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "ranger",
       "faction": "faction_gra",
       "fi": 0,
@@ -1107,7 +1107,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "support",
       "faction": "faction_gra",
       "fi": 0,
@@ -1123,7 +1123,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "mage",
       "faction": "faction_gra",
       "fi": 0,
@@ -1139,7 +1139,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "warrior",
       "faction": "faction_gra",
       "fi": 0,
@@ -1155,7 +1155,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "tank",
       "faction": "faction_gra",
       "fi": 0,
@@ -1171,7 +1171,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "tank",
       "faction": "faction_gra",
       "fi": 0,
@@ -1187,7 +1187,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "ranger",
       "faction": "faction_gra",
       "fi": 0,
@@ -1203,7 +1203,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "support",
       "faction": "faction_gra",
       "fi": 0,
@@ -1219,7 +1219,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "ranger",
       "faction": "faction_dim",
       "fi": 0,
@@ -1235,7 +1235,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "tank",
       "faction": "faction_dim",
       "fi": 0,
@@ -1251,7 +1251,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "warrior",
       "faction": "faction_dim",
       "fi": 0,
@@ -1267,7 +1267,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "ranger",
       "faction": "faction_dim",
       "fi": 0,
@@ -1283,7 +1283,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "ranger",
       "faction": "faction_dim",
       "fi": 0,
@@ -1299,7 +1299,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "tank",
       "faction": "faction_dim",
       "fi": 0,
@@ -1315,7 +1315,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "mage",
       "faction": "faction_dim",
       "fi": 0,
@@ -1331,7 +1331,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "warrior",
       "faction": "faction_dim",
       "fi": 0,
@@ -1347,7 +1347,7 @@
     {
       "ascension": 2,
       "minAscension": 2,
-      "maxAscension": 14,
+      "maxAscension": 13,
       "class": "ranger",
       "faction": "faction_dim",
       "fi": 0,
